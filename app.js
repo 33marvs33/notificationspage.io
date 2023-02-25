@@ -11,6 +11,7 @@ allRead.addEventListener('click', () => {
     })
     display()
 })
+//pop up//
 boxData.forEach((box) => {
   box.addEventListener("click", (e) => {
     const tar = e.currentTarget;
@@ -20,6 +21,8 @@ boxData.forEach((box) => {
     popUp.classList.toggle("pop");
   });
 });
+
+//icon //
 boxData.forEach((key) => {
   key.addEventListener("click", check);
 });
