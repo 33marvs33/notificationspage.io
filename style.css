@@ -133,6 +133,7 @@ main li {
 
 .two-col {
   display: flex;
+  gap:.3em;
   justify-content: space-between;
   align-items: flex-start;
 }
